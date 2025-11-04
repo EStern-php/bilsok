@@ -14,13 +14,8 @@ Ett PHP-projekt som scrapar bilannonser och låter användaren söka efter dem v
 
 ## Installation
 1. Klona repot
-2. Skapa `.env` med din databas-info:
-   ```env
-   DB_HOST=mysqlXX.simply.com
-   DB_NAME=eriksautomobiler
-   DB_USER=biluser
-   DB_PASS=hemligtlösen
-   ```
+2. Skapa en databas enligt uppgifterna i databaseModel.php
+(eller ändra koden så att den läser från en .env-fil i stället)
 3. Importera `schema.sql` i din databas
 4. Starta webbservern och öppna sidan
 
